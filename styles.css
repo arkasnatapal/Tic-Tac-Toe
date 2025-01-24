@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(wallpie.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+h1{
+        font-family: "Pacifico", serif;
+        font-weight: 400;
+        font-size: 5rem;
+        font-style: normal;
+}
+main{
+    padding-top: 1rem;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 1rem rgba(50,0,0,0.3);
+    font-size: 8vmin;
+    color:#AC3931 ;
+    background-color: bisque;
+
+}
+#reset-btn{
+    padding: 1rem;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(93, 193, 196);
+    box-shadow: 0 0 3rem rgba(155, 52, 52, 0.5);
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.MSG{
+    font-size: 2rem;
+    color:rgb(31, 50, 178);
+    font-style: oblique;
+    
+}
+.hide{
+    display: none;
+}
+.box:hover{
+        box-shadow: 0 0 2rem rgba(6, 255, 43, 0.9) ;
+        cursor: pointer;
+}
+.box:active{
+    box-shadow: 0 0 2rem rgba(255, 64, 6, 0.9) ;
+}
+#reset-btn:hover{
+    box-shadow: 0 0 2rem rgba(255, 6, 143, 0.9) ;
+}
+#reset-btn:active{
+    box-shadow: 0 0 2rem rgba(198, 0, 109, 0.759) ;
+}
